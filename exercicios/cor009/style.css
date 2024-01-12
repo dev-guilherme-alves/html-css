@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*
+    em html e "id" = em css e "#"
+    em html e "class" = em css e "."
+*/
+body {
+    background-color: #00ff37
+}
+
+h1 {
+    background-color: #20c011;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #7fff90;
+    color: #ffffff;
+}
+h2 {
+    background-color: #03198f
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkred;        
+        }
+        a :hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a :active {
+            color: blue;
+        }
+        a ::after {
+            content: '[LINK]';
+            text-decoration: none;
+            font-family: Verdana, Tahoma, sans-serif;
+        }
+        .especial {
+            background-color: green;
+            color: #18000065;
+        }
+        .especial ::before{
+            content: '>';
+        }
+        .especial ::after{
+            content: '<';
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizado links</h1>
+    <ul>
+        <li><a href="https://github.com/">github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" class="especial" >youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/">site</a></li>
+    </ul>    
+</body>
+</html>
