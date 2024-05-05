@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 150px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo tabela completa</h1>
+<table>
+    <caption>
+        Filmes Favoritos
+    </caption>
+    <thead>
+        <tr>
+            <th scope="col">genero</th>
+            <th scope="col">nome</th>
+            <th colspan="3" scope="colgroup">filmes</th>
+        </tr>
+    </thead>
+    <tr>
+        <th rowspan="3" scope="rowgroup">mulheres</th>
+        <td>ana</td>
+        <td>rambo</td>
+        <td>alien</td>
+        <td>vigadores</td>
+    </tr>
+    <tr>
+        <td>beatriz</td>
+        <td>hulk</td>
+        <td>incepction</td>
+        <td>batman</td>
+    </tr>
+    <tr>
+        <td>claudia</td>
+        <td>matrix</td>
+        <td>oblivion</td>
+        <td>big hero</td>
+    </tr>
+    <tr>
+        <th rowspan="3"
+        scope="rowgroup">homens</th>
+        <td>bruno</td>
+        <td>amnesia</td>
+        <td>gladiadores</td>
+        <td>intocaveis</td>
+    </tr>
+    <tr>
+        <td>daniel</td>
+        <td>wall-e</td>
+        <td>oldboy</td>
+        <td>dangal</td>
+    </tr>
+    <tr>
+        <td>fabiano</td>
+        <td>star wars 5</td>
+        <td>taxi driver</td>
+        <td>toy story</td>
+    </tr>
+    <tr>
+        <th colspan="4" scope="row">total</th>
+        <td>1000</td>
+    </tr>
+</table>
+</body>
+</html>
